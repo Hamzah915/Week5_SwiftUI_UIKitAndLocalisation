@@ -10,9 +10,11 @@ import SwiftUI
 
 class ViewController: UIViewController {
 
+    @IBOutlet var UIKitScreenLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        UIKitScreenLabel.text = NSLocalizedString("Third_screen_label", comment: "Welcome to the third screen")
     }
 
     @IBAction func SwiftUIScreenButton(_ sender: Any) {

@@ -18,6 +18,7 @@
 		B5342C4229F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5342C4129F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift */; };
 		B5342C4F29F921E000374194 /* SwiftUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5342C4E29F921E000374194 /* SwiftUIScreen.swift */; };
 		B5342C9129F93EC200374194 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5342C8F29F93EC200374194 /* CoreDataModel.xcdatamodeld */; };
+		B5342C9329F944AF00374194 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5342C9229F944AF00374194 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B5342C4129F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_and_UIKITUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B5342C4E29F921E000374194 /* SwiftUIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScreen.swift; sourceTree = "<group>"; };
 		B5342C9029F93EC200374194 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B5342C9229F944AF00374194 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B5342C2C29F9211500374194 /* Info.plist */,
 				B5342C4E29F921E000374194 /* SwiftUIScreen.swift */,
 				B5342C8F29F93EC200374194 /* CoreDataModel.xcdatamodeld */,
+				B5342C9229F944AF00374194 /* Localizable.strings */,
 			);
 			path = "SwiftUI and UIKIT";
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5342C2B29F9211500374194 /* LaunchScreen.storyboard in Resources */,
+				B5342C9329F944AF00374194 /* Localizable.strings in Resources */,
 				B5342C2829F9211500374194 /* Assets.xcassets in Resources */,
 				B5342C2629F9211400374194 /* Main.storyboard in Resources */,
 			);
@@ -328,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -388,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

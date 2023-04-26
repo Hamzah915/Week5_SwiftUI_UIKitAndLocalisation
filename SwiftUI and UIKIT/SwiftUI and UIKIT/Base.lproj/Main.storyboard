@@ -38,7 +38,7 @@
         <!--View Controller-->
         <scene sceneID="S37-xH-NRS">
             <objects>
-                <viewController storyboardIdentifier="ThirdScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m7d-xN-yAL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m7d-xN-yAL" customClass="ViewController" customModule="SwiftUI_and_UIKIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XVZ-Dh-MzS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,6 +54,9 @@
                         <viewLayoutGuide key="safeArea" id="lki-02-0oZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="UIKitScreenLabel" destination="PC7-ZI-hjb" id="bfz-Fw-HaZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ie-Rf-9cG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
