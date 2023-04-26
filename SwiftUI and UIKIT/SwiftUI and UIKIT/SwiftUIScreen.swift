@@ -12,12 +12,11 @@ struct SwiftUIScreen: View {
     var body: some View {
         HStack(spacing:0){
             GeometryReader{ geometry in
-                Text("Welcome to SwiftUI").padding().bold().foregroundColor(.white).frame(width: geometry.size.width/2, height: geometry.size.height).background(.black)
+                Text(LocalizedStringKey("2nd_Screen_label")).padding().bold().foregroundColor(.white).frame(width: geometry.size.width/2, height: geometry.size.height).background(.black)
                 
                 
-                Text(LocalizedStringKey("2nd_Screen_label"))
                 
-                Button("Jump to UIKit"){
+                Button(LocalizedStringKey("Jump to UIKit")){
                     let storyBoard = UIStoryboard(name: "Main", bundle: nil)
                     let thirdScreen = storyBoard.instantiateViewController(withIdentifier: "ThirdScreen")
                     navigationController?.pushViewController(thirdScreen, animated: true)

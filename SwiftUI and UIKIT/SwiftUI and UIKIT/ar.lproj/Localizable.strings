@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SwiftUI and UIKIT
+
+  Created by Hamzah Azam on 26/04/2023.
+ 
+*/
+
+"Third_screen_label" = "مرحبًا بك في الشاشة الثالثة";
+"2nd_Screen_label" = "مرحبًا بك في SwiftUI";

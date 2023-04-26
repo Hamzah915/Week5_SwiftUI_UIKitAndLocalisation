@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "UIKit Screen"; ObjectID = "PC7-ZI-hjb"; */
+"PC7-ZI-hjb.text" = "UIKit Screen";
+
+/* Class = "UIButton"; configuration.title = "SwiftUI Screen"; ObjectID = "etk-ZW-byX"; */
+"etk-ZW-byX.configuration.title" = "SwiftUI Screen";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "etk-ZW-byX"; */
+"etk-ZW-byX.normalTitle" = "Button";

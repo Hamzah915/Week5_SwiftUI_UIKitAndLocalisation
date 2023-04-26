@@ -30,32 +30,40 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="pxy-t3-Ac6"/>
+                    <connections>
+                        <outlet property="SwiftUI_Screen" destination="etk-ZW-byX" id="KyO-pm-Qcj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Third Screen View Controller-->
         <scene sceneID="S37-xH-NRS">
             <objects>
-                <viewController storyboardIdentifier="ThirdScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m7d-xN-yAL" customClass="ViewController" customModule="SwiftUI_and_UIKIT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="m7d-xN-yAL" customClass="ThirdScreenViewController" customModule="SwiftUI_and_UIKIT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XVZ-Dh-MzS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UIKit Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PC7-ZI-hjb">
-                                <rect key="frame" x="91" y="73" width="241" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIKit Screen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PC7-ZI-hjb">
+                                <rect key="frame" x="35" y="73" width="342" height="73"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lki-02-0oZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PC7-ZI-hjb" firstAttribute="trailing" secondItem="XVZ-Dh-MzS" secondAttribute="trailingMargin" id="0MU-FN-0Lr"/>
+                            <constraint firstItem="lki-02-0oZ" firstAttribute="bottom" secondItem="PC7-ZI-hjb" secondAttribute="bottom" constant="672" id="UNJ-1q-7uO"/>
+                            <constraint firstItem="PC7-ZI-hjb" firstAttribute="top" secondItem="lki-02-0oZ" secondAttribute="top" constant="14" id="b4U-xF-ydE"/>
+                            <constraint firstItem="PC7-ZI-hjb" firstAttribute="leading" secondItem="lki-02-0oZ" secondAttribute="leading" constant="35" id="cOR-Xu-Lks"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="UIKitScreenLabel" destination="PC7-ZI-hjb" id="bfz-Fw-HaZ"/>
+                        <outlet property="uIThirdScreenLabel" destination="PC7-ZI-hjb" id="KI4-O3-8Qi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ie-Rf-9cG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

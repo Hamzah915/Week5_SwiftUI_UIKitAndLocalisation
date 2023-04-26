@@ -18,7 +18,8 @@
 		B5342C4229F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5342C4129F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift */; };
 		B5342C4F29F921E000374194 /* SwiftUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5342C4E29F921E000374194 /* SwiftUIScreen.swift */; };
 		B5342C9129F93EC200374194 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5342C8F29F93EC200374194 /* CoreDataModel.xcdatamodeld */; };
-		B5342C9329F944AF00374194 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5342C9229F944AF00374194 /* Localizable.strings */; };
+		B5342C9A29F9520600374194 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5342C9C29F9520600374194 /* Localizable.strings */; };
+		B5342CA129F97EA200374194 /* ThirdScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5342CA029F97EA200374194 /* ThirdScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,9 @@
 		B5342C4129F9211600374194 /* SwiftUI_and_UIKITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_and_UIKITUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B5342C4E29F921E000374194 /* SwiftUIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScreen.swift; sourceTree = "<group>"; };
 		B5342C9029F93EC200374194 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
-		B5342C9229F944AF00374194 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B5342C9B29F9520600374194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B5342C9F29F97C6700374194 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B5342CA029F97EA200374194 /* ThirdScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +111,14 @@
 				B5342C1E29F9211400374194 /* AppDelegate.swift */,
 				B5342C2029F9211400374194 /* SceneDelegate.swift */,
 				B5342C2229F9211400374194 /* ViewController.swift */,
+				B5342CA029F97EA200374194 /* ThirdScreenViewController.swift */,
 				B5342C2429F9211400374194 /* Main.storyboard */,
 				B5342C2729F9211500374194 /* Assets.xcassets */,
 				B5342C2929F9211500374194 /* LaunchScreen.storyboard */,
 				B5342C2C29F9211500374194 /* Info.plist */,
 				B5342C4E29F921E000374194 /* SwiftUIScreen.swift */,
 				B5342C8F29F93EC200374194 /* CoreDataModel.xcdatamodeld */,
-				B5342C9229F944AF00374194 /* Localizable.strings */,
+				B5342C9C29F9520600374194 /* Localizable.strings */,
 			);
 			path = "SwiftUI and UIKIT";
 			sourceTree = "<group>";
@@ -222,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = B5342C1229F9211300374194;
 			productRefGroup = B5342C1C29F9211400374194 /* Products */;
@@ -241,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5342C2B29F9211500374194 /* LaunchScreen.storyboard in Resources */,
-				B5342C9329F944AF00374194 /* Localizable.strings in Resources */,
+				B5342C9A29F9520600374194 /* Localizable.strings in Resources */,
 				B5342C2829F9211500374194 /* Assets.xcassets in Resources */,
 				B5342C2629F9211400374194 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +277,7 @@
 				B5342C4F29F921E000374194 /* SwiftUIScreen.swift in Sources */,
 				B5342C1F29F9211400374194 /* AppDelegate.swift in Sources */,
 				B5342C2129F9211400374194 /* SceneDelegate.swift in Sources */,
+				B5342CA129F97EA200374194 /* ThirdScreenViewController.swift in Sources */,
 				B5342C9129F93EC200374194 /* CoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +329,15 @@
 				B5342C2A29F9211500374194 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B5342C9C29F9520600374194 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5342C9B29F9520600374194 /* en */,
+				B5342C9F29F97C6700374194 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
